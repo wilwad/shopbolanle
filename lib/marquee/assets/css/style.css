@@ -1,0 +1,11 @@
+.marq {
+    background: linear-gradient(to bottom, #FFD65E 0%, #FEBF04 100%) repeat scroll 0 0 transparent;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    font-family: open Sans,Arial;
+    font-size: 18px;
+    font-weight: bold;
+    height: 41px;
+    padding-left: 10px;
+}
+

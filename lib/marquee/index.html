@@ -1,0 +1,64 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Continous Horizontal JQuery Image Marquee</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="assets/css/style.css" rel='stylesheet' type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+       
+            <div id="marqueediv">
+                    <div class="marq" style="float:left; width:200px; background-color:#FFD500; padding-top:17px">
+                        <span style="padding-top:-5px; padding-left:3px;">Products We Support</span>
+                        </div>
+                        <div style="float:left; height:56px; width:519px; border-top: 1px solid #ECEDF3; border-bottom: 1px solid #ECEDF3; border-right: 1px solid #ECEDF3">
+                            
+                             <div id="mycrawler2" style="margin-top: -3px; " class="productswesupport">
+                               
+                                <img src="assets/images/products/ie.png" style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/browser.png" style="margin-left: 10px; margin-top: 10px" />
+                                <img src="assets/images/products/chrome.png" style="margin-left: 10px; margin-top: 10px" />
+                                <img src="assets/images/products/safari.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/avg.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/mcafee.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/norton.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/avast.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/pptx.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/word.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/outlook.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/xls.png" style="margin-left: 10px; margin-top: 10px" />
+                                <img src="assets/images/products/windows.png"  style="margin-left: 10px; margin-top: 10px"/>
+                                <img src="assets/images/products/mac.png"  style="margin-left: 10px; margin-top: 10px"/>
+                            
+                            </div>
+                         
+                            
+                        </div>
+            </div>
+        
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" ></script>
+        <script src="assets/js/crawler.js" type="text/javascript" ></script>
+        
+        <script>
+              marqueeInit({
+                    uniqueid: 'mycrawler2',
+                    style: {
+                         
+                    },
+                    inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+                    mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+                    moveatleast: 2,
+                    neutral: 150,
+                    savedirection: true,
+                    random: true
+                });
+
+        </script>
+    </body>
+</html>
