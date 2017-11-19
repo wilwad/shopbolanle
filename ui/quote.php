@@ -202,8 +202,8 @@
                             // PayPal Client IDs - replace with your own
                             // Create a PayPal app: https://developer.paypal.com/developer/applications/create
                             client: {
-                                sandbox:  'Aba2nAr9xiRtHTQON1CgMc8DEjozTT8auU5ZkEW80pKVO2z9lxcPf_v0AFXU-wrxtmnsZImkWqloA0ID',
-                                production:  'ARZLiBXFN_G5T9Z6b19Pgb9hIII_1YY_8RR4xLxOlBr9HfQdj6QMBcg27OFi9uivh_8qmb1W_joqn5aX'
+                                sandbox:  '',
+                                production:  ''
                             },
                             
                             commit: true, // Show a 'Pay Now' button
